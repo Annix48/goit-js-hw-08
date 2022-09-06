@@ -24,11 +24,6 @@ let lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   doubleTapZoom: 1,
 });
-alleryContainerEl.addEventListener('click', event => {
-  event.preventDefault();
-  if (!event.target.classList.contains('gallery__image')) {
-    return;
-  }
-});
+
 
 // console.log(galleryItems);
